@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="@string/prefs_temperature_key"
+        android:title="Temperature"
+        android:entries="@array/prefs_temperature_value"
+        android:entryValues="@array/prefs_temperature_option"
+        android:defaultValue="@string/pref_metric_value"
+        />
+    <ListPreference
+        android:key="@string/prefs_wind_key"
+        android:title="Wind"
+        android:entries="@array/prefs_wind_value"
+        android:entryValues="@array/prefs_wind_option"
+        android:defaultValue="@string/pref_km_value"
+        />
+    <ListPreference
+        android:key="@string/prefs_pressure_key"
+        android:title="Pressure"
+        android:entries="@array/prefs_pressure_value"
+        android:entryValues="@array/prefs_pressure_value"
+        android:defaultValue="@string/pref_hpa_value"
+        />
+</PreferenceScreen>

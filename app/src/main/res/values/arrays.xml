@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="prefs_temperature_option">
+        <item>@string/pref_metric_key</item>
+        <item>@string/pref_imperial_key</item>
+    </string-array>
+    <string-array name="prefs_temperature_value">
+        <item>@string/pref_metric_value</item>
+        <item>@string/pref_imperial_value</item>
+    </string-array>
+
+    <string-array name="prefs_wind_option">
+        <item>@string/pref_kmh_key</item>
+        <item>@string/pref_mph_key</item>
+    </string-array>
+    <string-array name="prefs_wind_value">
+        <item>@string/pref_km_value</item>
+        <item>@string/pref_mph_value</item>
+    </string-array>
+
+    <string-array name="prefs_pressure_option">
+        <item>@string/pref_hpa_key</item>
+        <item>@string/pref_mb_key</item>
+        <item>@string/pref_mmhg_key</item>
+        <item>@string/pref_ln_key</item>
+    </string-array>
+    <string-array name="prefs_pressure_value">
+        <item>@string/pref_hpa_value</item>
+        <item>@string/pref_mb_value</item>
+        <item>@string/pref_mmhg_value</item>
+        <item>@string/pref_ln_value</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueDarkBackground">
+
+    <ImageButton
+        android:id="@+id/deleteBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/settings_button_description"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_delete_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/unitBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="64dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:cropToPadding="true"
+        app:layout_constraintBottom_toBottomOf="@+id/deleteBt"
+        app:layout_constraintStart_toEndOf="@+id/deleteBt"
+        app:layout_constraintTop_toTopOf="@+id/deleteBt"
+        app:srcCompat="@drawable/ic_cellcius" />
+
+    <ImageButton
+        android:id="@+id/gpsBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginStart="32dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/add_city_description"
+        app:layout_constraintBottom_toBottomOf="@+id/unitBt"
+        app:layout_constraintEnd_toStartOf="@+id/addBt"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/unitBt"
+        app:layout_constraintTop_toTopOf="@+id/unitBt"
+        app:srcCompat="@drawable/ic_gps_fixed_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/addBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/add_city_description"
+        app:layout_constraintBottom_toBottomOf="@+id/gpsBt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gpsBt"
+        app:srcCompat="@drawable/ic_add_black_24dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:background="@color/blueBackground"
+        app:layout_constraintBottom_toTopOf="@+id/tabDots"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unitBt" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabDots"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tabBackground="@drawable/tab_selector"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="@string/AdBanner1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
+

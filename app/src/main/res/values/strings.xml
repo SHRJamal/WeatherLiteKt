@@ -1,0 +1,142 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">Weather!</string>
+
+
+    <!-- Used by Main Activity -->
+    <string name="sunrise_sunset_label"><![CDATA[Sunrise \&\ Sunset]]></string>
+
+    <string name="pressure_label">Pressure</string>
+
+    <string name="humidity_label">Humidity</string>
+
+    <!-- - - - - - - - - - - - - - - - - -
+        - - -Settings Preferences - - -
+     - - - - - - - - - - - - - - - - - - - - -->
+
+    <!-- Temperature -->
+    <string name="prefs_temperature_key">prefs_temperature_key</string>
+
+    <string name="pref_metric_key">pref_metric</string>
+    <string name="pref_metric_value">°C</string>
+
+    <string name="pref_imperial_key">pref_imperial</string>
+    <string name="pref_imperial_value">°F</string>
+
+    <!-- Wind -->
+    <string name="prefs_wind_key">prefs_wind_key</string>
+
+    <string name="pref_kmh_key">pref_km</string>
+    <string name="pref_km_value">Km/h</string>
+
+    <string name="pref_mph_key">pref_mph</string>
+    <string name="pref_mph_value">Mph</string>
+
+    <!-- Pressure -->
+    <string name="prefs_pressure_key">prefs_pressure_key</string>
+
+    <string name="pref_hpa_key">pref_hpa</string>
+    <string name="pref_hpa_value">hPa</string>
+
+    <string name="pref_mb_key">pref_mb</string>
+    <string name="pref_mb_value">Mb</string>
+
+    <string name="pref_mmhg_key">pref_mmhg</string>
+    <string name="pref_mmhg_value">mmHg</string>
+
+    <string name="pref_ln_key">pref_ln</string>
+    <string name="pref_ln_value">ln</string>
+
+
+    <!-- Weather Conditions (From OpenWeatherMap) -->
+    <string name="condition_2xx">Storm</string>
+    <string name="condition_3xx">Drizzle</string>
+    <string name="condition_500">Light Rain</string>
+    <string name="condition_501">Moderate Rain</string>
+    <string name="condition_502">Heavy Rain</string>
+    <string name="condition_503">Intense Rain</string>
+    <string name="condition_504">Extreme Rain</string>
+    <string name="condition_511">Freezing Rain</string>
+    <string name="condition_520">Light Shower</string>
+    <string name="condition_521">Shower</string>
+    <string name="condition_522">Heavy Shower</string>
+    <string name="condition_531">Ragged Shower</string>
+    <string name="condition_600">Light Snow</string>
+    <string name="condition_601">Snow</string>
+    <string name="condition_602">Heavy Snow</string>
+    <string name="condition_611">Sleet</string>
+    <string name="condition_612">Shower Sleet</string>
+    <string name="condition_615">Rain and Snow</string> <!-- light rain and snow -->
+    <string name="condition_616">Rain and Snow</string>
+    <string name="condition_620">Shower Snow</string> <!-- light shower snow -->
+    <string name="condition_621">Shower Snow</string>
+    <string name="condition_622">Shower Snow</string> <!-- heavy shower snow -->
+    <string name="condition_701">Mist</string>
+    <string name="condition_711">Smoke</string>
+    <string name="condition_721">Haze</string>
+    <string name="condition_731">Sand, Dust</string>
+    <string name="condition_741">Fog</string>
+    <string name="condition_751">Sand</string>
+    <string name="condition_761">Dust</string>
+    <string name="condition_762">Volcanic Ash</string>
+    <string name="condition_771">Squalls</string>
+    <string name="condition_781">Tornado</string>
+    <string name="condition_800">Clear</string>
+    <string name="condition_801">Mostly Clear</string>
+    <string name="condition_802">Scattered Clouds</string>
+    <string name="condition_803">Broken Clouds</string>
+    <string name="condition_804">Overcast Clouds</string>
+    <string name="condition_900">Tornado</string>
+    <string name="condition_901">Tropical Storm</string>
+    <string name="condition_902">Hurricane</string>
+    <string name="condition_903">Cold</string>
+    <string name="condition_904">Hot</string>
+    <string name="condition_905">Windy</string>
+    <string name="condition_906">Hail</string>
+    <string name="condition_951">Calm</string>
+    <string name="condition_952">Light Breeze</string>
+    <string name="condition_953">Gentle Breeze</string>
+    <string name="condition_954">Breeze</string> <!-- moderate breeze -->
+    <string name="condition_955">Fresh Breeze</string>
+    <string name="condition_956">Strong Breeze</string>
+    <string name="condition_957">High Wind</string>
+    <string name="condition_958">Gale</string>
+    <string name="condition_959">Severe Gale</string>
+    <string name="condition_960">Storm</string>
+    <string name="condition_961">Violent Storm</string>
+    <string name="condition_962">Hurricane</string>
+
+    <string name="condition_unknown">Unknown (<xliff:g id="conditionId">%1$d</xliff:g>)</string>
+    <string name="north_direction">North</string>
+    <string name="east_direction">East</string>
+    <string name="sunrise_sunset"><![CDATA[SUNRISE & SUNSET]]></string>
+    <string name="humidity">HUMIDITY</string>
+    <string name="pressure">PRESSURE</string>
+    <string name="wind">WIND</string>
+    <string name="today">Today</string>
+    <string name="settings_button_description">Settings Button</string>
+    <string name="add_city_description">To add City</string>
+<!--
+    <string name="AdBanner1">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="AdBanner2">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="AdBanner3">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="AdInterstitial1">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="AdInterstitial2">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="AdInterstitial3">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="AdVideo1">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="AdVideo2">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="AdVideo3">ca-app-pub-3940256099942544/5224354917</string>
+-->
+    <string name="AdBanner1">ca-app-pub-4206484200435863/4654834923</string>
+    <string name="AdBanner2">ca-app-pub-4206484200435863/7668681890</string>
+    <string name="AdBanner3">ca-app-pub-4206484200435863/4751584954</string>
+
+    <string name="AdInterstitial1">ca-app-pub-4206484200435863/2198748891</string>
+    <string name="AdInterstitial2">ca-app-pub-4206484200435863/9472718156</string>
+    <string name="AdInterstitial3">ca-app-pub-4206484200435863/1594228136</string>
+
+    <string name="AdVideo1">ca-app-pub-4206484200435863/2585761704</string>
+    <string name="AdVideo2">ca-app-pub-4206484200435863/7383533441</string>
+    <string name="AdVideo3">ca-app-pub-4206484200435863/9247279453</string>
+
+    <string name="contactUs">Weather! App is an individual Effort and has No Main Support. For Us to Continue Developing it, we added ADS on it, We appreciate your Help on using our App. So If you get bored with Ads, Please Feel Free To Can Contact Us To Get Our Pro Version, All Free. And If you want Help Us to Continue, you Can Donate Us on PayPal or just keep continue using our Free ADS Version. Thanks</string>
+</resources>
